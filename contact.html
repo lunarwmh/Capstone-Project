@@ -1,10 +1,20 @@
 <html>
     <head>
         <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <nav>
-            <a href="index.html">Back</a>
+    <body class="with-fixed-nav">
+        <nav class="site-nav">
+            <div class="nav-inner">
+                <a href="index.html" class="brand title-cherry">Mehriban</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="weekly_schedule.html">Schedule</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <form action="mailto:mhuseynli19813@ada.edu.az" method="post" enctype="text/plain">
             <br>
@@ -14,7 +24,7 @@
             <label for="lname">E-mail:</label><br>
             <input type="text" id="lname" name="lname">
 
-            <p>Choose your purpose of contact:</p>
+            <p class="purpose">Choose your purpose of contact:</p>
 
             <input type="radio" id="work" name="purpose" value="Work">
             <label for="work">Work</label>

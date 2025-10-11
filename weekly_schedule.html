@@ -2,13 +2,26 @@
 <html lang="en">
 <head>
     <title>Weekly Schedule</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html">Back</a>
+  <body class="with-fixed-nav">
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a href="index.html" class="brand title-cherry">Mehriban</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="weekly_schedule.html" aria-current="page">Schedule</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
   <h1>Weekly Schedule</h1>
 
-  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
+  <table class="schedule-table" border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
     <thead>
       <tr>
         <th>Time</th>
@@ -22,7 +35,7 @@
       </tr>
     </thead>
     <tbody>
-      <!-- 08:30 - 09:45 -->
+
       <tr>
         <td>08:30 – 09:45</td>
         <td></td>
@@ -34,7 +47,6 @@
         <td></td>
       </tr>
 
-      <!-- 10:00 - 11:15 -->
       <tr>
         <td>10:00 – 11:15</td>
         <td bgcolor="#e76f8f">✔️ <u>Linear Algebra</u></td>
@@ -46,7 +58,6 @@
         <td></td>
       </tr>
 
-      <!-- 11:30 - 12:45 -->
       <tr>
         <td>11:30 – 12:45</td>
         <td></td>
@@ -57,8 +68,7 @@
         <td></td>
         <td></td>
       </tr>
-
-      <!-- 13:00 - 14:15 -->
+  
       <tr>
         <td>13:00 – 14:15</td>
         <td bgcolor="#56a0d6">✔️ <u>Intro to Computer Networks</u></td>
